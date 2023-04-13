@@ -1,7 +1,7 @@
 <template>
   <header
     :style="{
-      backgroundColor: 'brown',
+     // backgroundColor: 'brown',
       width: '100%',
       height: '10%',
       display: 'flex',
@@ -10,7 +10,7 @@
   >
     <div
       :style="{
-        backgroundColor: 'red',
+       // backgroundColor: 'red',
         width: '80%',
         height: '100%',
         display: 'flex',
@@ -19,7 +19,7 @@
     >
       <div
         :style="{
-          backgroundColor: 'greenyellow',
+         // backgroundColor: 'greenyellow',
           width: '10%',
           height: '100%',
           display: 'flex',
@@ -31,7 +31,7 @@
       </div>
       <div
         :style="{
-          backgroundColor: 'orange',
+         // backgroundColor: 'orange',
           width: '20%',
           height: '100%',
           display: 'flex',
@@ -43,7 +43,7 @@
       </div>
       <div
         :style="{
-          backgroundColor: 'pink',
+         // backgroundColor: 'pink',
           width: '70%',
           height: '100%',
           display: 'flex',

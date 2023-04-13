@@ -1,7 +1,7 @@
 <template>
   <div
     :style="{
-      backgroundColor: 'yellow',
+     // backgroundColor: 'yellow',
       width: '100vw',
       height: '100vh',
     }"
