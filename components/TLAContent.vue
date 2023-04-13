@@ -1,5 +1,9 @@
 <template>
-  <div>Content</div>
+  <div  :style="{
+        backgroundColor: 'green',
+        width:'100%',
+        height:'40%'
+      }">Content</div>
 </template>
 
 <script>
