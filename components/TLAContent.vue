@@ -1,61 +1,132 @@
 <template>
   <div
     :style="{
-     // backgroundColor:'yellow',
+      // backgroundColor: 'yellow',
       width: '100%',
       height: '80%',
-      display:'flex',
-      justifyContent:'center',
-      flexDirection:'column',
+      display: 'flex',
+      justifyContent: 'center',
+      flexDirection: 'column',
       alignItems: 'center',
     }"
   >
-  <div
-  :style="{
-     // backgroundColor:'orange',
-      width: '80%',
-      height: '50%',
-      display: 'flex',
-      alignItems: 'center',
-    }">
-    <p>
-      Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos
-      de texto. Lorem Ipsum ha sido el texto de relleno estándar de las
-      industrias desde el año 1500, cuando un impresor (N. del T. persona que se
-      dedica a la imprenta) desconocido usó una galería de textos y los mezcló
-      de tal manera que logró hacer un libro de textos especimen. No sólo
-      sobrevivió 500 años, sino que tambien ingresó como texto de relleno en
-      documentos electrónicos, quedando esencialmente igual al original. Fue
-      popularizado en los 60s con la creación de las hojas "Letraset", las
-      cuales contenian pasajes de Lorem Ipsum, y más recientemente con software
-      de autoedición, como por ejemplo Aldus PageMaker, el cual incluye
-      versiones de Lorem Ipsum.
-    </p>
-  </div>
+    <div
+      :style="{
+        // backgroundColor: 'green',
+        width: '80%',
+        height: '100%',
+      }"
+    >
+      <div
+        :style="{
+          // backgroundColor: 'orange',
+          width: '100%',
+          height: '50%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'start',
+        }"
+      >
+        <div
+          :style="{
+            // backgroundColor: 'purple',
+            width: '60%',
+            height: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }"
+        >
+          <div
+            :style="{
+              width: '70%',
+              height: '30%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderLeft: '2px solid #c71818',
+            }"
+          >
+            <p
+              :style="{
+                textAlign: 'left',
+              }"
+            >
+              The average wait time for lines at banks and cinemas can vary
+              greatly depending on the location, time of day, and other factors.
+              However, I can provide some general guidelines for estimated wait
+              times based on my understanding of common wait times.
+            </p>
+          </div>
+        </div>
 
-  <div
-  :style="{
-     // backgroundColor:'blue',
-      width: '80%',
-      height: '50%',
-      display: 'flex',
-      alignItems: 'center',
-    }">
-    <p>
-      Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos
-      de texto. Lorem Ipsum ha sido el texto de relleno estándar de las
-      industrias desde el año 1500, cuando un impresor (N. del T. persona que se
-      dedica a la imprenta) desconocido usó una galería de textos y los mezcló
-      de tal manera que logró hacer un libro de textos especimen. No sólo
-      sobrevivió 500 años, sino que tambien ingresó como texto de relleno en
-      documentos electrónicos, quedando esencialmente igual al original. Fue
-      popularizado en los 60s con la creación de las hojas "Letraset", las
-      cuales contenian pasajes de Lorem Ipsum, y más recientemente con software
-      de autoedición, como por ejemplo Aldus PageMaker, el cual incluye
-      versiones de Lorem Ipsum.
-    </p>
-  </div>
-    
+        <div
+          :style="{
+            // backgroundColor: 'brown',
+            width: '40%',
+            height: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'start',
+          }"
+        ></div>
+      </div>
+
+      <div
+        :style="{
+          // backgroundColor: 'gray',
+          width: '100%',
+          height: '50%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'start',
+        }"
+      >
+        <div
+          :style="{
+            // backgroundColor: 'brown',
+            width: '40%',
+            height: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'start',
+          }"
+        ></div>
+        <div
+          :style="{
+            // backgroundColor: 'red',
+            width: '60%',
+            height: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }"
+        >
+          <div
+            :style="{
+              // backgroundColor: 'orange',
+              width: '70%',
+              height: '40%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRight: '2px solid #c71818',
+            }"
+          >
+            <p
+              :style="{
+                textAlign: 'right',
+              }"
+            >
+              The average wait time for lines at banks and cinemas can vary
+              greatly depending on the location, time of day, and other factors.
+              However, I can provide some general guidelines for estimated wait
+              times based on my understanding of common wait times.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

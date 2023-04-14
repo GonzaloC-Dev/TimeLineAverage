@@ -10,7 +10,7 @@
   >
     <div
       :style="{
-       // backgroundColor: 'red',
+        backgroundColor: '#c71818',
         width: '80%',
         height: '100%',
         display: 'flex',
@@ -27,7 +27,11 @@
           alignItems: 'center',
         }"
       >
-        <img :src="logoURL" />
+      <img  :style="{
+         // backgroundColor: 'orange',
+          width: '50%',
+          height: '70%',
+          }" :src="logoURL">
       </div>
       <div
         :style="{
@@ -39,7 +43,9 @@
           alignItems: 'center',
         }"
       >
-        <h3>Home</h3>
+        <h3 :style="{
+         color:'#FFFFFF'
+        }">TINE</h3>
       </div>
       <div
         :style="{
@@ -48,10 +54,14 @@
           height: '100%',
           display: 'flex',
           justifyContent: 'end',
+          marginRight: '20px',
           alignItems: 'center',
         }"
       >
-        <h3>Contact us</h3>
+        <h3 :style="{
+         color:'#FFFFFF'
+         
+        }">Contact us</h3>
       </div>
     </div>
   </header>
@@ -62,7 +72,7 @@ export default {
   name: "TLAHeader",
   computed: {
     logoURL() {
-      return "../assets/img/icon_lorem.png";
+      return require('../assets/img/icon_lorem.png');
     },
   },
 };
